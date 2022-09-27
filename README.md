@@ -8,6 +8,15 @@ Modern live-chat using React, NodeJS, Socket.io, MongoDB
 
 [Github](https://github.com/koolkishan/chat-app-react-nodejs)
 
+## Usage:
+
+- start Docker of MongoDB: `docker compose up`
+- start NodeJS server: `cd server && yarn start`
+- start FrontEnd of live-chat: `cd public && yarn start`
+
+_Optional:_
+Close Docker-MongoDB after use: `docker compose down`
+
 ## MongoDB:
 
 [Pull & Bash Mongodb in docker](https://hub.docker.com/_/mongo)
